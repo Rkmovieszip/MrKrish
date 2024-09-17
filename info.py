@@ -15,7 +15,7 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', '21527086'))
 API_HASH = environ.get('API_HASH', '11caabfc20fca699feff0c24213b1a80')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7401908453:AAFrL_IpdAWDlvnO-zJmlIDqOwhtAfM8zEg')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1798348973').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/rkmoviezip")
